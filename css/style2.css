@@ -1,0 +1,45 @@
+
+
+h1
+{
+
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+#multiline
+{
+
+	width:800px; margin:0 auto;
+}
+body {
+  font: 10px sans-serif;
+  background-image: url("../data/bg2.jpg");
+   background-size: cover;
+}
+/*.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}*/
+.x.axis path {
+   
+}
+.line {
+    fill: none;
+    stroke-width: .5px;
+}
+path {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: grey;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
